@@ -1,4 +1,6 @@
-<p align="right">English · <a href="README.zh.md">中文</a></p>
+<img src="logo.png" align="right" width="120" alt="Shiori logo" />
+
+English · [中文](README.zh.md)
 
 # Shiori 栞
 
