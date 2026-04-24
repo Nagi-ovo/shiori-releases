@@ -12,7 +12,7 @@ compile time — see **Expiry** below.
 
 ## Latest build
 
-→ **[Releases](https://github.com/Nagi-ovo/shiori-release/releases/latest)**
+→ **[Releases](https://github.com/Nagi-ovo/shiori-releases/releases/latest)**
 
 Each release ships three artifacts:
 
@@ -65,7 +65,7 @@ SmartScreen will say *"Windows protected your PC."*
 Each build carries a `__BUILD_TIMESTAMP__` injected at compile time
 and refuses to start more than **7 days** after that moment. When the
 app expires it shows an expiry screen linking back to
-[the latest release](https://github.com/Nagi-ovo/shiori-release/releases/latest).
+[the latest release](https://github.com/Nagi-ovo/shiori-releases/releases/latest).
 
 **Your drafts carry over across upgrades.** They live in IndexedDB
 scoped to the `fun.nagi.shiori` bundle identifier, so installing a
