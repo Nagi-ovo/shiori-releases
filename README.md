@@ -1,12 +1,12 @@
-# Shiori 栞 — closed-alpha releases
+<p align="right">English · <a href="README.zh.md">中文</a></p>
 
-Binary host for [**Shiori**](https://shiori.nagi.fun), a local-first
-PDF reader and editor. This repository exists so invited testers have
-a single URL to pull from; the source is kept in a separate private
-repo.
+# Shiori 栞
 
-Everything here is **closed-alpha**. Builds self-destruct 7 days after
-compile time — see **Expiry** below.
+A quieter place to read, annotate, and organize your PDFs. This is
+the download page for invited testers.
+
+Everything here is **closed-alpha**. Builds expire seven days after
+release so stale bugs don't linger in the wild.
 
 ---
 
@@ -14,42 +14,36 @@ compile time — see **Expiry** below.
 
 → **[Releases](https://github.com/Nagi-ovo/shiori-releases/releases/latest)**
 
-Each release ships three artifacts:
-
 | Platform | File |
 |---|---|
 | macOS (Apple Silicon) | `Shiori_<version>_aarch64.dmg` |
-| Windows (x64) | `Shiori_<version>_x64-setup.exe` (NSIS) |
-| Windows (x64) | `Shiori_<version>_x64_en-US.msi` (Windows Installer) |
+| Windows (x64) | `Shiori_<version>_x64_en-US.msi` |
 
 Intel Mac is not supported during the alpha.
 
-In-app release notes are available by clicking the version number in
-the Landing corner. The latest notes are also pinned to each GitHub
-release above.
+Release notes are attached to each build on the releases page. You
+can also open the in-app changelog by clicking the version number on
+the Landing screen.
 
 ---
 
 ## First launch
 
-Builds are unsigned during the alpha, so the OS will warn you.
+Shiori is unsigned during the alpha, so your OS will pause the first
+time you open it. This is expected.
 
 ### macOS
 
 Gatekeeper will say *"Apple cannot check it for malicious software."*
-This is expected.
 
 1. Mount the DMG and drag **Shiori** into Applications.
-2. Double-click Shiori. Click **Cancel** on the Gatekeeper warning.
-3. Open **System Settings → Privacy & Security**. Scroll to the
-   bottom — you'll see *"Shiori was blocked…"*. Click **Open Anyway**.
+2. Double-click Shiori. Click **Cancel** on the warning.
+3. Open **System Settings → Privacy & Security**, scroll to the
+   bottom, and click **Open Anyway** next to *"Shiori was blocked…"*.
 4. Return to Launchpad / Applications and open Shiori again. Click
    **Open** on the final dialog.
 
-Subsequent launches are normal.
-
-中文速通：双击被拦 → System Settings → Privacy & Security 拉到底
-→ Open Anyway → 回去再打开一次 → Open。之后正常。
+Every launch after that is normal.
 
 ### Windows
 
@@ -62,38 +56,25 @@ SmartScreen will say *"Windows protected your PC."*
 
 ## Expiry
 
-Each build carries a `__BUILD_TIMESTAMP__` injected at compile time
-and refuses to start more than **7 days** after that moment. When the
-app expires it shows an expiry screen linking back to
-[the latest release](https://github.com/Nagi-ovo/shiori-releases/releases/latest).
+Each build stops working seven days after its release date. When
+that happens, Shiori will point you here for the next build.
 
-**Your drafts carry over across upgrades.** They live in IndexedDB
-scoped to the `fun.nagi.shiori` bundle identifier, so installing a
-newer build keeps everything in place.
+**Your drafts carry over.** Upgrading to a new build keeps
+everything you've opened, annotated, or drafted in place.
 
 ---
 
 ## Reporting bugs
 
-Use whichever channel you got this build from. Please attach the log
-file when filing:
+Use whichever channel you received this build from. Please attach
+the log file when filing:
 
 - **macOS** — `~/Library/Logs/fun.nagi.shiori/Shiori.log`
 - **Windows** — `%APPDATA%\fun.nagi.shiori\logs\`
 
 ---
 
-## What's here vs. what's not
-
-- **Here** — compiled binaries only (`.dmg`, `.msi`, `.exe`) and
-  these release notes.
-- **Not here** — source, issues, PRs. The source repo is private for
-  the alpha.
-
----
-
 ## Privacy
 
-Shiori is local-first. No accounts, no telemetry, no cloud sync.
-Drafts, thumbnails, and preferences all live on your machine —
-IndexedDB + OS-standard application-support paths.
+Shiori is local-first. Your PDFs, notes, and preferences live only
+on your machine. No accounts, no telemetry, no cloud sync.
