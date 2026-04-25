@@ -1,11 +1,11 @@
 {
-  "version": "0.1.99-preview",
-  "notes": "新功能\n• 应用内自动更新：启动后会安静地检查一次，也可以在 Settings → 更新里手动触发。\n\n修复\n• 高亮选中态终于看得见——选中后会显示一圈蓝色虚线框\n• 滚动时左侧缩略图不再跳过页或卡在错误的位置\n• 高亮工具下按 Cmd+A 不再把整页染蓝\n• 自建高亮的右边缘不再越过最后一个字符\n• 跨行高亮重叠区域不再叠出更深的颜色\n\n改进\n• 缩略图底色改成纸白，暗色主题下纸面也是白的\n• 缩略图上现在能看到你画的标注（之前只显示原 PDF）\n• 模态框的按钮行不再随正文滚动\n\n移除\n• 高亮的 resize handles——高亮应该贴着文字，不是任意拉伸的矩形",
-  "pub_date": "2026-04-26T00:00:00Z",
+  "version": "0.1.4",
+  "notes": "Update Shiori to v0.1.4. Detailed release notes are loaded by the app in your UI language.",
+  "pub_date": "2026-04-25T23:25:36Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/Nagi-ovo/shiori-releases/releases/download/v0.1.3/Shiori_0.1.3_aarch64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZzJjR2FoSmZPSHZDa0g1Q2NWY3c3bmxVQkd4bHcrcjJRVW5xNFF1b1ZEd01zY1NpMXc4UlhJRFNnY0JsTlFiTzBPdkpVa2JveWVlZlBmMVNpZXJrSXg4ODhoVUcwQmdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc3MTU0NjUyCWZpbGU6U2hpb3JpLmFwcC50YXIuZ3oKWENZWHdTaXhRY2FSYjJqeHpieWJHbkE5YzhWdVRTRUNmRWhMQ1Q5djFNRWxRUmF0T1lIbzQ2MHNxK0Y5ZzcyV0d5SkRYNHluZ1dDamNYamZrWW9wQ1E9PQo="
+      "url": "https://github.com/Nagi-ovo/shiori-releases/releases/download/v0.1.4/Shiori_0.1.4_aarch64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZzJjR2FoSmZPSG41RmN4NTZMLzNPT1ZvcjVDbENqNFA5Y1RnQ0tmcXk5T1loWlRGMU4xa20zQ2oyT0ZtNXR4dE00S2U5VnBtQXF3dWprNlU1SDRxWFlrdmtRQ2xhR0FZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc3MTU5NDg2CWZpbGU6U2hpb3JpLmFwcC50YXIuZ3oKNWJDOG42eUJtMVZJRTl3VjVNaHVydFFaRjlNbUZ0TU1naVlPalQ1MG9jbjZSd2ZONFRxaHJnd1ZhcDd2TFJZdGxnd0FncVNsWm1Obk4wSExZa00wRFE9PQo="
     }
   }
 }
