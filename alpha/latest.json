@@ -1,11 +1,15 @@
 {
   "version": "0.1.5",
   "notes": "Update Shiori to v0.1.5. Detailed release notes are loaded by the app in your UI language.",
-  "pub_date": "2026-04-26T13:45:00Z",
+  "pub_date": "2026-04-26T15:10:00Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/Nagi-ovo/shiori-releases/releases/download/v0.1.5/Shiori_0.1.5_aarch64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZzJjR2FoSmZPSHV6SjdDMlltNXZoMEdETTNHZ0ExWXRISjEzZEJFNkxaZXN4ckc0WlcwSFZxOHpZU0piaCsxd1N2clhRK0xmOEVHZVdSN1BmNFN1cThuTlZFVGVrQ1FzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc3MjA5MjIyCWZpbGU6U2hpb3JpLmFwcC50YXIuZ3oKcVBoMktoQTdkVlNyRllKcEExUWlXZ3o4ZlBlYUNiMm15cTRidnRsU3hLU2pLb1dPUERKenF6VWF6M0xRdzdYY0RsZi9mb21yalYxdlRPUytEcDJvQlE9PQo="
+      "url": "https://github.com/Nagi-ovo/shiori-releases/releases/download/v0.1.5/Shiori_0.1.5_universal.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZzJjR2FoSmZPSHEyemRvZjA4WHJsc05WbkUvbkJqN3JyWk5GbmxhY3N1d0p2dW5scGpOTExaWDhNbEs4UWJVUUFpeFdlTmFXSnlHSGdpLzlEQTE3VlM3QlBCM29JMmd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc3MjE2MDg5CWZpbGU6U2hpb3JpLmFwcC50YXIuZ3oKODArZ1hDM012V2dyMER5cjdUY2w1b21pQXZtVlkzMFozTW1SQ09ubzVJOXZVZjRoSE9QZm9FblByYUxsTmNEVHY0QmFITHk2azlialVPWVBabzQ3QUE9PQo="
+    },
+    "darwin-x86_64": {
+      "url": "https://github.com/Nagi-ovo/shiori-releases/releases/download/v0.1.5/Shiori_0.1.5_universal.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZzJjR2FoSmZPSHEyemRvZjA4WHJsc05WbkUvbkJqN3JyWk5GbmxhY3N1d0p2dW5scGpOTExaWDhNbEs4UWJVUUFpeFdlTmFXSnlHSGdpLzlEQTE3VlM3QlBCM29JMmd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc3MjE2MDg5CWZpbGU6U2hpb3JpLmFwcC50YXIuZ3oKODArZ1hDM012V2dyMER5cjdUY2w1b21pQXZtVlkzMFozTW1SQ09ubzVJOXZVZjRoSE9QZm9FblByYUxsTmNEVHY0QmFITHk2azlialVPWVBabzQ3QUE9PQo="
     },
     "windows-x86_64": {
       "url": "https://github.com/Nagi-ovo/shiori-releases/releases/download/v0.1.5/Shiori_0.1.5_x64_en-US.msi",
