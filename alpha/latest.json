@@ -1,7 +1,7 @@
 {
   "version": "0.1.5",
   "notes": "Update Shiori to v0.1.5. Detailed release notes are loaded by the app in your UI language.",
-  "pub_date": "2026-04-26T13:25:00Z",
+  "pub_date": "2026-04-26T13:45:00Z",
   "platforms": {
     "darwin-aarch64": {
       "url": "https://github.com/Nagi-ovo/shiori-releases/releases/download/v0.1.5/Shiori_0.1.5_aarch64.app.tar.gz",
@@ -10,6 +10,10 @@
     "windows-x86_64": {
       "url": "https://github.com/Nagi-ovo/shiori-releases/releases/download/v0.1.5/Shiori_0.1.5_x64_en-US.msi",
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZzJjR2FoSmZPSGdSVHVDMXVlTWlBU2RWeWoxOGFpTEtkcnczcWN2QVk4V0NvSFVXYWd5YXlkY1BydFBKb2FJNmZlemdVc3JvaDFFZ2p0dENuSlo5blExN1V4eDMxM0FnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc3MjA5NDA2CWZpbGU6U2hpb3JpXzAuMS41X3g2NF9lbi1VUy5tc2kKVVBVdFN1UUNZYjhITFAzOU1xdjBvK1BPWlpYTE9VT0Fvb29MVjg3MU55dkdmTGNrakdVclc3MTA4aEdyaFFKQmQ4Z0lHb2JuY05PMUR6UlJDa21ZQWc9PQo="
+    },
+    "linux-x86_64": {
+      "url": "https://github.com/Nagi-ovo/shiori-releases/releases/download/v0.1.5/Shiori_0.1.5_amd64.AppImage",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZzJjR2FoSmZPSG14QndwNTBPK2tHd2FxWmF6QmhSRm1BN2Nnd1IzTWhGaTlxSEdjcGRWY04zRnpwZkNUK0taQ2dscS91MlQ4c1JTY2t3eG5KazVpRW1yZmU2S0VuaFFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc3MjEwNzYzCWZpbGU6U2hpb3JpXzAuMS41X2FtZDY0LkFwcEltYWdlCmdmUStLUWVhdVk2YW5iMWNMMXBFdE9GSm81Y0M4M21tNFRUbTA3R2hHMjJqdmQ5WnVWYXdpUTlXUm9NV0ozcklnUGt6aUZqZDkzQVJNMmpSamRRZUF3PT0K"
     }
   }
 }
