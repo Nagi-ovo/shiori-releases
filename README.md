@@ -1,31 +1,61 @@
-<img src="logo.png" align="right" width="120" alt="Shiori logo" />
+<p align="center">
+  <img src="./logo.png" width="96" height="96" alt="Shiori logo" />
+</p>
 
-# Shiori 栞
+<h1 align="center">Shiori 栞</h1>
+
+<p align="center">
+  A focused PDF reader and annotation tool for closed-alpha testers.
+</p>
+
+<p align="center">
+  <a href="https://shiori.nagi.fun">Website</a>
+  ·
+  <a href="https://github.com/Nagi-ovo/shiori-releases/releases">Releases</a>
+  ·
+  <a href="https://updates.shiori.nagi.fun/alpha/latest.json">Updater manifest</a>
+</p>
 
 ---
 
-### English
+## Downloads
 
-This is the release archive. No discussions are held here.
+Installers are published on the
+[Releases](https://github.com/Nagi-ovo/shiori-releases/releases) page.
+The in-app updater reads the signed manifest at
+[`alpha/latest.json`](https://updates.shiori.nagi.fun/alpha/latest.json).
 
-For bug reports and feature requests, please use the feedback site
-*(coming soon)*.
+| Platform | Recommended package |
+| --- | --- |
+| macOS Apple Silicon | `aarch64.dmg` |
+| macOS Intel | `universal.dmg` |
+| Windows | `x64_en-US.msi` |
+| Linux | `.AppImage` for portable use, `.deb` for Debian / Ubuntu |
 
-For everything else, the Shiori website is on its way.
+## About This Repository
 
-### 中文
+This repository is a release archive only. It hosts downloadable builds,
+updater signatures, localized release notes, and the public update manifest.
+Discussions, feature requests, and bug reports are handled outside this repo.
 
-这是 Shiori 的版本归档仓库，不开放讨论。
+## 中文
 
-如需反馈 bug 或建议功能，请前往反馈站点 *（即将上线）*。
+这是 Shiori 的版本归档仓库，只用于发布安装包、更新签名、更新说明和
+自动更新 manifest，不在这里处理讨论。
 
-其他信息请关注 Shiori 官网，敬请期待。
+下载请前往
+[Releases](https://github.com/Nagi-ovo/shiori-releases/releases)；
+应用内更新使用
+[`alpha/latest.json`](https://updates.shiori.nagi.fun/alpha/latest.json)。
 
-### 日本語
+## 日本語
 
-このリポジトリはリリースのアーカイブです。ここでは議論は行いません。
+このリポジトリは Shiori のリリースアーカイブです。インストーラー、
+アップデート署名、リリースノート、公開アップデート manifest のみを
+ホストしています。議論や不具合報告はこのリポジトリでは扱いません。
 
-バグ報告や機能リクエストは、フィードバックサイトをご利用ください
-*（近日公開）*。
-
-その他の情報は、Shiori 公式サイトでお知らせします。
+ダウンロードは
+[Releases](https://github.com/Nagi-ovo/shiori-releases/releases) から、
+アプリ内アップデートは
+[`alpha/latest.json`](https://updates.shiori.nagi.fun/alpha/latest.json)
+を使用します。
