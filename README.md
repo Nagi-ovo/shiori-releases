@@ -5,7 +5,7 @@
 <h1 align="center">Shiori 栞</h1>
 
 <p align="center">
-  A focused PDF reader and annotation tool for closed-alpha testers.
+  A focused PDF reader and annotation tool for beta testers.
 </p>
 
 <p align="center">
