@@ -5,7 +5,7 @@
 <h1 align="center">Shiori 栞</h1>
 
 <p align="center">
-  A focused PDF reader and annotation tool for beta testers.
+  A focused document reader and PDF annotation tool for beta testers.
 </p>
 
 <p align="center">
@@ -31,6 +31,11 @@ The in-app updater reads the signed manifest at
 | macOS Intel | `universal.dmg` |
 | Windows | `x64_en-US.msi` |
 | Linux | `.AppImage` for portable use, `.deb` for Debian / Ubuntu |
+| Android direct install | `.apk` |
+
+iOS / iPadOS is distributed as one universal iPhone + iPad app through the
+Apple App Store. Google Play builds are uploaded to Play Console as `.aab`
+artifacts and are not mirrored here.
 
 ## About This Repository
 
@@ -48,6 +53,9 @@ Discussions, feature requests, and bug reports are handled outside this repo.
 应用内更新使用
 [`alpha/latest.json`](https://updates.shiori.nagi.fun/alpha/latest.json)。
 
+Android 官网直装版使用 `.apk`；Google Play 版使用 Play Console 的 `.aab`，
+不会镜像到这里。iOS / iPadOS 使用同一个 App Store 安装包。
+
 ## 日本語
 
 このリポジトリは Shiori のリリースアーカイブです。インストーラー、
@@ -59,3 +67,7 @@ Discussions, feature requests, and bug reports are handled outside this repo.
 アプリ内アップデートは
 [`alpha/latest.json`](https://updates.shiori.nagi.fun/alpha/latest.json)
 を使用します。
+
+Android の直接インストール版は `.apk` です。Google Play 版の `.aab` は
+Play Console 用で、このリポジトリにはミラーしません。iOS / iPadOS は
+同じ App Store ビルドを使用します。
