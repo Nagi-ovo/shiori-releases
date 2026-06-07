@@ -19,9 +19,7 @@
 <p align="center">
   <a href="https://shiori.nagi.fun">Web サイト</a>
   ·
-  <a href="https://github.com/Nagi-ovo/shiori-releases/releases/latest">最新リリース</a>
-  ·
-  <a href="https://updates.shiori.nagi.fun/alpha/latest.json">Updater manifest</a>
+  <a href="https://github.com/Nagi-ovo/shiori-releases/releases/latest">ダウンロード</a>
 </p>
 
 ![Shiori Japanese home screen](./assets/screenshots/home-ja.jpg)
@@ -46,7 +44,9 @@ Markdown と HTML のプレビュー、文書ごとのタブ状態、次回起�
 
 ![PDF workspace with thumbnails, annotations, and side panel](./assets/screenshots/pdf-workspace.jpg)
 
-![Markdown and HTML previews](./assets/screenshots/text-documents-ja.jpg)
+![Markdown preview in Shiori](./assets/screenshots/markdown-document.jpg)
+
+![HTML document running in Shiori](./assets/screenshots/html-document.jpg)
 
 ## ダウンロード
 
@@ -63,15 +63,14 @@ Markdown と HTML のプレビュー、文書ごとのタブ状態、次回起�
 | Google Play | 近日公開 | Google Play |
 | iOS / iPadOS | 近日公開 | App Store / TestFlight |
 
-デスクトップ版の自動更新は署名済みの
-[`alpha/latest.json`](https://updates.shiori.nagi.fun/alpha/latest.json)
-を読み込みます。Android の直接インストール版は、APK をアプリ内でダウンロードして
-検証したあと、Android のパッケージインストーラーへ渡します。ストア版は各ストアで
-更新されるため、このリポジトリには `.aab` や `.ipa` としてミラーしません。
+デスクトップ版と Android の直接インストール版は、Shiori 内から更新できます。
+Android 直接インストール版は APK をアプリ内でダウンロードして検証したあと、
+Android のパッケージインストーラーへ渡します。ストア版は各ストアで更新されるため、
+このリポジトリには `.aab` や `.ipa` としてミラーしません。
 
 ## このリポジトリについて
 
 このリポジトリは Shiori のリリースアーカイブです。インストーラー、更新署名、
-ローカライズされたリリースノート、スクリーンショット、公開 updater manifest のみを
-ホストしています。Shiori のソースリポジトリは非公開で、議論・機能要望・不具合報告は
-このリポジトリでは扱いません。
+ローカライズされたリリースノート、スクリーンショットのみをホストしています。
+Shiori のソースリポジトリは非公開で、議論・機能要望・不具合報告はこのリポジトリでは
+扱いません。

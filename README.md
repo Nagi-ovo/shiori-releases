@@ -19,9 +19,7 @@
 <p align="center">
   <a href="https://shiori.nagi.fun">Website</a>
   ·
-  <a href="https://github.com/Nagi-ovo/shiori-releases/releases/latest">Latest release</a>
-  ·
-  <a href="https://updates.shiori.nagi.fun/alpha/latest.json">Updater manifest</a>
+  <a href="https://github.com/Nagi-ovo/shiori-releases/releases/latest">Downloads</a>
 </p>
 
 ![Shiori home screen](./assets/screenshots/home-en.jpg)
@@ -48,7 +46,9 @@ tabs, per-document state, and session restore.
 
 ![PDF workspace with thumbnails, annotations, and side panel](./assets/screenshots/pdf-workspace.jpg)
 
-![Markdown and HTML document previews](./assets/screenshots/text-documents-en.jpg)
+![Markdown document preview](./assets/screenshots/markdown-document.jpg)
+
+![HTML document running in Shiori](./assets/screenshots/html-document.jpg)
 
 ## Downloads
 
@@ -65,15 +65,14 @@ Installers are published on the
 | Google Play | Coming soon | Google Play |
 | iOS / iPadOS | Coming soon | App Store / TestFlight |
 
-Desktop auto-update reads the signed manifest at
-[`alpha/latest.json`](https://updates.shiori.nagi.fun/alpha/latest.json).
-Android direct-install builds download and verify the APK before handing it to
-the Android package installer. Store builds are updated by their stores and are
-not mirrored here as `.aab` or `.ipa` files.
+Desktop and Android direct-install builds can update from inside Shiori. Android
+direct-install builds download and verify the APK before handing it to the
+Android package installer. Store builds are updated by their stores and are not
+mirrored here as `.aab` or `.ipa` files.
 
 ## About This Repository
 
 This repository is a release archive only. It hosts downloadable builds, updater
-signatures, localized release notes, screenshots, and the public update
-manifest. The Shiori source repository is private, and discussions, feature
-requests, and bug reports are handled outside this repo.
+signatures, localized release notes, and screenshots. The Shiori source
+repository is private, and discussions, feature requests, and bug reports are
+handled outside this repo.

@@ -19,9 +19,7 @@
 <p align="center">
   <a href="https://shiori.nagi.fun">官网</a>
   ·
-  <a href="https://github.com/Nagi-ovo/shiori-releases/releases/latest">最新版本</a>
-  ·
-  <a href="https://updates.shiori.nagi.fun/alpha/latest.json">更新 manifest</a>
+  <a href="https://github.com/Nagi-ovo/shiori-releases/releases/latest">下载</a>
 </p>
 
 ![Shiori 中文首页](./assets/screenshots/home-zh-CN.jpg)
@@ -45,7 +43,9 @@ PDF 批注是核心工作流；现在也支持 Markdown 与 HTML 预览、多标
 
 ![PDF 工作区：缩略图、批注与侧栏](./assets/screenshots/pdf-workspace.jpg)
 
-![Markdown 与 HTML 文档预览](./assets/screenshots/text-documents-zh-CN.jpg)
+![Markdown 文档预览](./assets/screenshots/markdown-document.jpg)
+
+![HTML 文档在 Shiori 中运行](./assets/screenshots/html-document.jpg)
 
 ## 下载
 
@@ -62,12 +62,11 @@ PDF 批注是核心工作流；现在也支持 Markdown 与 HTML 预览、多标
 | Google Play | 敬请期待 | Google Play |
 | iOS / iPadOS | 敬请期待 | App Store / TestFlight |
 
-桌面端自动更新读取已签名的
-[`alpha/latest.json`](https://updates.shiori.nagi.fun/alpha/latest.json)。
-Android 直装版会在应用内下载并校验 APK，然后交给 Android 系统安装器。商店版由
-对应商店更新，不会在这里镜像 `.aab` 或 `.ipa`。
+桌面端和 Android 直装版都可以在 Shiori 内更新。Android 直装版会在应用内下载并
+校验 APK，然后交给 Android 系统安装器。商店版由对应商店更新，不会在这里镜像
+`.aab` 或 `.ipa`。
 
 ## 关于这个仓库
 
-这个仓库只作为发布归档使用：托管安装包、更新签名、本地化 release notes、截图和
-公开更新 manifest。Shiori 源码仓库是私有仓库；讨论、功能请求和 bug 反馈不在这里处理。
+这个仓库只作为发布归档使用：托管安装包、更新签名、本地化 release notes 和截图。
+Shiori 源码仓库是私有仓库；讨论、功能请求和 bug 反馈不在这里处理。
