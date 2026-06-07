@@ -5,69 +5,75 @@
 <h1 align="center">Shiori 栞</h1>
 
 <p align="center">
-  A focused document reader and PDF annotation tool for beta testers.
+  A local-first reader for PDF, Markdown, and HTML documents.
+</p>
+
+<p align="center">
+  <a href="./README.md">English</a>
+  ·
+  <a href="./README.zh-CN.md">简体中文</a>
+  ·
+  <a href="./README.ja.md">日本語</a>
 </p>
 
 <p align="center">
   <a href="https://shiori.nagi.fun">Website</a>
   ·
-  <a href="https://github.com/Nagi-ovo/shiori-releases/releases">Releases</a>
+  <a href="https://github.com/Nagi-ovo/shiori-releases/releases/latest">Latest release</a>
   ·
   <a href="https://updates.shiori.nagi.fun/alpha/latest.json">Updater manifest</a>
 </p>
 
----
+![Shiori home screen](./assets/screenshots/home-en.jpg)
+
+Shiori is a quiet document workspace for reading, marking up, and shipping
+documents without turning them into somebody else's cloud data. PDF annotation is
+the core workflow, and recent builds also support Markdown and HTML viewing with
+tabs, per-document state, and session restore.
+
+## Highlights
+
+- **PDF reading and annotation**: highlights, markup tools, thumbnails, export,
+  and local draft recovery.
+- **Tabs for documents**: open multiple PDF, Markdown, and HTML files; each tab
+  keeps its own view state and survives relaunch until you close it.
+- **Markdown and HTML previews**: Markdown front matter is surfaced cleanly, and
+  HTML can run in an isolated sandbox only when you choose to run it.
+- **Local-first storage**: documents, annotations, recent files, and preferences
+  stay on your device.
+- **Desktop and mobile targets**: macOS, Windows, Linux, Android direct install,
+  with iOS / iPadOS and Google Play distribution handled through their stores.
+
+## Screenshots
+
+![PDF workspace with thumbnails, annotations, and side panel](./assets/screenshots/pdf-workspace.jpg)
+
+![Markdown and HTML document previews](./assets/screenshots/text-documents-en.jpg)
 
 ## Downloads
 
 Installers are published on the
-[Releases](https://github.com/Nagi-ovo/shiori-releases/releases) page.
-The in-app updater reads the signed manifest at
+[GitHub Releases](https://github.com/Nagi-ovo/shiori-releases/releases) page.
+
+| Platform | Recommended package | Update path |
+| --- | --- | --- |
+| macOS Apple Silicon | `.dmg` | Signed in-app updater |
+| macOS Intel | `.dmg` | Signed in-app updater |
+| Windows | `.msi` | Signed in-app updater |
+| Linux | `.AppImage`; `.deb` for Debian / Ubuntu | `.AppImage` updater or manual package update |
+| Android direct install | `.apk` | In-app APK update flow |
+| Google Play | Coming soon | Google Play |
+| iOS / iPadOS | Coming soon | App Store / TestFlight |
+
+Desktop auto-update reads the signed manifest at
 [`alpha/latest.json`](https://updates.shiori.nagi.fun/alpha/latest.json).
-
-| Platform | Recommended package |
-| --- | --- |
-| macOS Apple Silicon | `aarch64.dmg` |
-| macOS Intel | `universal.dmg` |
-| Windows | `x64_en-US.msi` |
-| Linux | `.AppImage` for portable use, `.deb` for Debian / Ubuntu |
-| Android direct install | `.apk` |
-
-iOS / iPadOS is distributed as one universal iPhone + iPad app through the
-Apple App Store. Google Play builds are uploaded to Play Console as `.aab`
-artifacts and are not mirrored here.
+Android direct-install builds download and verify the APK before handing it to
+the Android package installer. Store builds are updated by their stores and are
+not mirrored here as `.aab` or `.ipa` files.
 
 ## About This Repository
 
-This repository is a release archive only. It hosts downloadable builds,
-updater signatures, localized release notes, and the public update manifest.
-Discussions, feature requests, and bug reports are handled outside this repo.
-
-## 中文
-
-这是 Shiori 的版本归档仓库，只用于发布安装包、更新签名、更新说明和
-自动更新 manifest，不在这里处理讨论。
-
-下载请前往
-[Releases](https://github.com/Nagi-ovo/shiori-releases/releases)；
-应用内更新使用
-[`alpha/latest.json`](https://updates.shiori.nagi.fun/alpha/latest.json)。
-
-Android 官网直装版使用 `.apk`；Google Play 版使用 Play Console 的 `.aab`，
-不会镜像到这里。iOS / iPadOS 使用同一个 App Store 安装包。
-
-## 日本語
-
-このリポジトリは Shiori のリリースアーカイブです。インストーラー、
-アップデート署名、リリースノート、公開アップデート manifest のみを
-ホストしています。議論や不具合報告はこのリポジトリでは扱いません。
-
-ダウンロードは
-[Releases](https://github.com/Nagi-ovo/shiori-releases/releases) から、
-アプリ内アップデートは
-[`alpha/latest.json`](https://updates.shiori.nagi.fun/alpha/latest.json)
-を使用します。
-
-Android の直接インストール版は `.apk` です。Google Play 版の `.aab` は
-Play Console 用で、このリポジトリにはミラーしません。iOS / iPadOS は
-同じ App Store ビルドを使用します。
+This repository is a release archive only. It hosts downloadable builds, updater
+signatures, localized release notes, screenshots, and the public update
+manifest. The Shiori source repository is private, and discussions, feature
+requests, and bug reports are handled outside this repo.
