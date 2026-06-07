@@ -37,6 +37,8 @@ tabs, per-document state, and session restore.
   keeps its own view state and survives relaunch until you close it.
 - **Markdown and HTML previews**: Markdown front matter is surfaced cleanly, and
   HTML can run in an isolated sandbox only when you choose to run it.
+- **Desktop side tools**: keep an embedded browser or terminal next to a PDF,
+  including local shells such as `cc` / Claude Code when they are installed.
 - **Local-first storage**: documents, annotations, recent files, and preferences
   stay on your device.
 - **Desktop and mobile targets**: macOS, Windows, Linux, Android direct install,
@@ -45,6 +47,12 @@ tabs, per-document state, and session restore.
 ## Screenshots
 
 ![PDF workspace with thumbnails, annotations, and side panel](./assets/screenshots/pdf-workspace.jpg)
+
+![Tabbed workspace with PDF, Markdown, and HTML documents](./assets/screenshots/desktop-tabs.jpg)
+
+![PDF workspace with the embedded browser open](./assets/screenshots/desktop-browser.jpg)
+
+![PDF workspace with the embedded terminal running Claude Code through cc](./assets/screenshots/desktop-terminal-cc.jpg)
 
 ![Markdown document preview](./assets/screenshots/markdown-document.jpg)
 

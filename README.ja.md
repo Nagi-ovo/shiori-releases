@@ -36,17 +36,25 @@ Markdown と HTML のプレビュー、文書ごとのタブ状態、次回起�
   閉じない限り次回起動時にも復元されます。
 - **Markdown / HTML プレビュー**：Markdown の front matter を読みやすく表示し、
   HTML は明示的に実行したときだけ隔離サンドボックスで動きます。
+- **デスクトップ用サイドツール**：PDF の横に内蔵ブラウザやターミナルを置けます。
+  `cc` / Claude Code がローカルに入っていれば、Shiori の内蔵ターミナルから起動できます。
 - **ローカルファースト**：文書、注釈、最近使ったファイル、設定はあなたの端末に残ります。
 - **デスクトップとモバイル**：macOS、Windows、Linux、Android 直接インストール版。
   iOS / iPadOS と Google Play は各ストア経由で配布します。
 
 ## スクリーンショット
 
-![PDF workspace with thumbnails, annotations, and side panel](./assets/screenshots/pdf-workspace.jpg)
+![サムネイル、注釈、サイドパネルを開いた PDF ワークスペース](./assets/screenshots/pdf-workspace.jpg)
 
-![Markdown preview in Shiori](./assets/screenshots/markdown-document.jpg)
+![PDF、Markdown、HTML を同時に開いたタブ付きワークスペース](./assets/screenshots/desktop-tabs.jpg)
 
-![HTML document running in Shiori](./assets/screenshots/html-document.jpg)
+![内蔵ブラウザを横に開いた PDF ワークスペース](./assets/screenshots/desktop-browser.jpg)
+
+![内蔵ターミナルで cc から Claude Code を起動している PDF ワークスペース](./assets/screenshots/desktop-terminal-cc.jpg)
+
+![Shiori の Markdown プレビュー](./assets/screenshots/markdown-document.jpg)
+
+![Shiori で実行中の HTML 文書](./assets/screenshots/html-document.jpg)
 
 ## ダウンロード
 

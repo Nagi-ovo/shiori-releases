@@ -35,6 +35,8 @@ PDF 批注是核心工作流；现在也支持 Markdown 与 HTML 预览、多标
   下次启动会恢复，除非你手动关闭它。
 - **Markdown 与 HTML 预览**：Markdown front matter 会清晰展示；HTML 只有在你选择运行时，
   才会进入隔离沙盒执行。
+- **桌面侧边工具**：PDF 旁边可以直接打开内置浏览器或终端；如果本机装了 `cc` /
+  Claude Code，也可以在 Shiori 的内置终端里启动。
 - **本地优先**：文档、批注、最近文件与偏好设置都保留在你的设备上。
 - **桌面与移动端目标**：macOS、Windows、Linux、Android 直装版；iOS / iPadOS 与
   Google Play 通过对应商店分发。
@@ -42,6 +44,12 @@ PDF 批注是核心工作流；现在也支持 Markdown 与 HTML 预览、多标
 ## 截图
 
 ![PDF 工作区：缩略图、批注与侧栏](./assets/screenshots/pdf-workspace.jpg)
+
+![同时打开 PDF、Markdown 与 HTML 的多标签工作区](./assets/screenshots/desktop-tabs.jpg)
+
+![PDF 工作区旁边打开内置浏览器](./assets/screenshots/desktop-browser.jpg)
+
+![PDF 工作区旁边的内置终端，通过 cc 运行 Claude Code](./assets/screenshots/desktop-terminal-cc.jpg)
 
 ![Markdown 文档预览](./assets/screenshots/markdown-document.jpg)
 
