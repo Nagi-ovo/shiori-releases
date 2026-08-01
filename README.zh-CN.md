@@ -80,15 +80,34 @@ PDF 批注是核心工作流；现在也支持 Markdown 与 HTML 预览、多标
 coding agent，如何读取 Shiori 当前打开的文档、按文本定位原文、添加锚定批注，
 以及在引线批注中继续回复。使用前需要确保 `shiori` CLI 已在 `PATH` 中。
 
-克隆本仓库后，macOS 和 Linux 用户可以把 skill 链接到对应 Agent 的用户级目录：
+> [!IMPORTANT]
+> 此 skill 目前还无法正常使用，因为 Shiori CLI 尚未发布。现在安装只是在提前配置
+> Agent 联动；需要等 CLI 正式发布后才具备实际功能。
+
+<details>
+<summary>展开未来安装方式（CLI 发布后）</summary>
+
+普通用户可以通过跨 Agent 的 `skills` 安装器全局安装，并选择需要使用它的
+coding agent：
+
+```sh
+npx skills@latest add Nagi-ovo/shiori-releases --skill shiori --global
+```
+
+开发 skill 时，macOS 和 Linux 贡献者也可以克隆本仓库，把本地目录链接到对应
+Agent 的用户级 skill 目录：
 
 ```sh
 ln -s "$(pwd)/skills/shiori" "${CODEX_HOME:-$HOME/.codex}/skills/shiori"
 ln -s "$(pwd)/skills/shiori" "$HOME/.claude/skills/shiori"
 ```
 
-只需执行与你使用的 Agent 对应的那一行。skill 单独采用
-[MIT License](./skills/shiori/LICENSE)；该许可证不适用于 Shiori 应用或 CLI 二进制文件。
+只需执行与你正在调试的 Agent 对应的那一行。
+
+</details>
+
+skill 本身单独采用 [MIT License](./skills/shiori/LICENSE)；该许可证不适用于
+Shiori 应用或 CLI 二进制文件。
 
 ## 关于这个仓库
 

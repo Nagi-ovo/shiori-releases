@@ -85,17 +85,36 @@ and other compatible coding agents how to inspect the document open in Shiori,
 find passages by text, add anchored annotations, and reply inside callout
 threads. It expects the `shiori` CLI to be available on `PATH`.
 
-After cloning this repository, macOS and Linux users can link the skill into
-either agent's user-level skill directory:
+> [!IMPORTANT]
+> This skill is not usable yet because the Shiori CLI has not been released.
+> Installing it now only prepares the agent integration for the future CLI.
+
+<details>
+<summary>Future installation instructions (after the CLI is released)</summary>
+
+Install it globally with the cross-agent `skills` installer, then select the
+coding agents that should receive it:
+
+```sh
+npx skills@latest add Nagi-ovo/shiori-releases --skill shiori --global
+```
+
+For local skill development, macOS and Linux contributors can instead clone
+this repository and link the checkout into an agent's user-level skill
+directory:
 
 ```sh
 ln -s "$(pwd)/skills/shiori" "${CODEX_HOME:-$HOME/.codex}/skills/shiori"
 ln -s "$(pwd)/skills/shiori" "$HOME/.claude/skills/shiori"
 ```
 
-Use the line for the agent you have installed. The skill is independently
-available under the [MIT License](./skills/shiori/LICENSE); that license does
-not apply to Shiori application or CLI binaries.
+Use the line for the agent you are developing against.
+
+</details>
+
+The skill itself is independently available under the
+[MIT License](./skills/shiori/LICENSE); that license does not apply to Shiori
+application or CLI binaries.
 
 ## About This Repository
 

@@ -83,17 +83,34 @@ Android のパッケージインストーラーへ渡します。ストア版は
 テキストに結び付いた注釈の追加、callout thread への返信方法を伝えます。
 利用するには `shiori` CLI が `PATH` に含まれている必要があります。
 
-このリポジトリを clone したあと、macOS / Linux では使用する Agent の
-ユーザーレベル skill ディレクトリへリンクできます。
+> [!IMPORTANT]
+> Shiori CLI はまだ公開されていないため、この skill は現時点では利用できません。
+> 今インストールしても Agent 連携の準備だけで、実際に使えるのは CLI 公開後です。
+
+<details>
+<summary>将来のインストール方法を表示（CLI 公開後）</summary>
+
+通常は、Agent 横断の `skills` installer でグローバルにインストールし、
+利用する coding agent を選択します。
+
+```sh
+npx skills@latest add Nagi-ovo/shiori-releases --skill shiori --global
+```
+
+skill をローカルで開発する場合は、このリポジトリを clone したあと、
+macOS / Linux で対象 Agent のユーザーレベル skill ディレクトリへリンクできます。
 
 ```sh
 ln -s "$(pwd)/skills/shiori" "${CODEX_HOME:-$HOME/.codex}/skills/shiori"
 ln -s "$(pwd)/skills/shiori" "$HOME/.claude/skills/shiori"
 ```
 
-利用する Agent に対応する一行だけを実行してください。この skill は独立して
-[MIT License](./skills/shiori/LICENSE) で公開されます。このライセンスは Shiori
-アプリケーションおよび CLI バイナリには適用されません。
+開発対象の Agent に対応する一行だけを実行してください。
+
+</details>
+
+この skill 自体は独立して [MIT License](./skills/shiori/LICENSE) で公開されます。
+このライセンスは Shiori アプリケーションおよび CLI バイナリには適用されません。
 
 ## このリポジトリについて
 
