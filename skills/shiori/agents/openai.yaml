@@ -1,0 +1,4 @@
+interface:
+  display_name: "Shiori CLI"
+  short_description: "Inspect and annotate documents through Shiori CLI"
+  default_prompt: "Use $shiori to inspect the document open in Shiori and annotate the relevant passage."

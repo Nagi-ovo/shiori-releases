@@ -76,9 +76,28 @@ Android 直接インストール版は APK をアプリ内でダウンロード�
 Android のパッケージインストーラーへ渡します。ストア版は各ストアで更新されるため、
 このリポジトリには `.aab` や `.ipa` としてミラーしません。
 
+## Agent skill
+
+オープンソースの [Shiori CLI skill](./skills/shiori) は、Codex、Claude Code、
+その他の対応 coding agent に、Shiori で開いている文書の読み取り、本文検索、
+テキストに結び付いた注釈の追加、callout thread への返信方法を伝えます。
+利用するには `shiori` CLI が `PATH` に含まれている必要があります。
+
+このリポジトリを clone したあと、macOS / Linux では使用する Agent の
+ユーザーレベル skill ディレクトリへリンクできます。
+
+```sh
+ln -s "$(pwd)/skills/shiori" "${CODEX_HOME:-$HOME/.codex}/skills/shiori"
+ln -s "$(pwd)/skills/shiori" "$HOME/.claude/skills/shiori"
+```
+
+利用する Agent に対応する一行だけを実行してください。この skill は独立して
+[MIT License](./skills/shiori/LICENSE) で公開されます。このライセンスは Shiori
+アプリケーションおよび CLI バイナリには適用されません。
+
 ## このリポジトリについて
 
-このリポジトリは Shiori のリリースアーカイブです。インストーラー、更新署名、
-ローカライズされたリリースノート、スクリーンショットのみをホストしています。
-Shiori のソースリポジトリは非公開で、議論・機能要望・不具合報告はこのリポジトリでは
-扱いません。
+このリポジトリは、Shiori のインストーラー、更新署名、ローカライズされた
+リリースノート、スクリーンショット、およびオープンソースの Shiori CLI Agent
+skill をホストしています。Shiori アプリケーションのソースリポジトリは非公開で、
+議論・機能要望・不具合報告はこのリポジトリでは扱いません。

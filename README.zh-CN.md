@@ -74,7 +74,23 @@ PDF 批注是核心工作流；现在也支持 Markdown 与 HTML 预览、多标
 校验 APK，然后交给 Android 系统安装器。商店版由对应商店更新，不会在这里镜像
 `.aab` 或 `.ipa`。
 
+## Agent skill
+
+开源的 [Shiori CLI skill](./skills/shiori) 会告诉 Codex、Claude Code 等兼容的
+coding agent，如何读取 Shiori 当前打开的文档、按文本定位原文、添加锚定批注，
+以及在引线批注中继续回复。使用前需要确保 `shiori` CLI 已在 `PATH` 中。
+
+克隆本仓库后，macOS 和 Linux 用户可以把 skill 链接到对应 Agent 的用户级目录：
+
+```sh
+ln -s "$(pwd)/skills/shiori" "${CODEX_HOME:-$HOME/.codex}/skills/shiori"
+ln -s "$(pwd)/skills/shiori" "$HOME/.claude/skills/shiori"
+```
+
+只需执行与你使用的 Agent 对应的那一行。skill 单独采用
+[MIT License](./skills/shiori/LICENSE)；该许可证不适用于 Shiori 应用或 CLI 二进制文件。
+
 ## 关于这个仓库
 
-这个仓库只作为发布归档使用：托管安装包、更新签名、本地化 release notes 和截图。
-Shiori 源码仓库是私有仓库；讨论、功能请求和 bug 反馈不在这里处理。
+这个仓库托管安装包、更新签名、本地化 release notes、截图，以及开源的 Shiori CLI
+Agent skill。Shiori 应用源码仓库是私有仓库；讨论、功能请求和 bug 反馈不在这里处理。

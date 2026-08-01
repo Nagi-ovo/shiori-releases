@@ -78,9 +78,28 @@ direct-install builds download and verify the APK before handing it to the
 Android package installer. Store builds are updated by their stores and are not
 mirrored here as `.aab` or `.ipa` files.
 
+## Agent skill
+
+The open-source [Shiori CLI skill](./skills/shiori) teaches Codex, Claude Code,
+and other compatible coding agents how to inspect the document open in Shiori,
+find passages by text, add anchored annotations, and reply inside callout
+threads. It expects the `shiori` CLI to be available on `PATH`.
+
+After cloning this repository, macOS and Linux users can link the skill into
+either agent's user-level skill directory:
+
+```sh
+ln -s "$(pwd)/skills/shiori" "${CODEX_HOME:-$HOME/.codex}/skills/shiori"
+ln -s "$(pwd)/skills/shiori" "$HOME/.claude/skills/shiori"
+```
+
+Use the line for the agent you have installed. The skill is independently
+available under the [MIT License](./skills/shiori/LICENSE); that license does
+not apply to Shiori application or CLI binaries.
+
 ## About This Repository
 
-This repository is a release archive only. It hosts downloadable builds, updater
-signatures, localized release notes, and screenshots. The Shiori source
-repository is private, and discussions, feature requests, and bug reports are
-handled outside this repo.
+This repository hosts downloadable builds, updater signatures, localized
+release notes, screenshots, and the open-source Shiori CLI agent skill. The
+Shiori application source repository is private, and discussions, feature
+requests, and bug reports are handled outside this repo.
