@@ -1,23 +1,23 @@
 {
-  "version": "26.9.7",
-  "notes": "Update Shiori to v26.9.7. Detailed release notes are loaded by the app in your UI language.",
-  "pub_date": "2026-09-07T15:09:47Z",
+  "version": "26.9.8",
+  "notes": "Update Shiori to v26.9.8. Detailed release notes are loaded by the app in your UI language.",
+  "pub_date": "2026-09-08T15:08:06Z",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/Nagi-ovo/shiori-releases/releases/download/v26.9.7/Shiori_26.9.7_aarch64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZzJjR2FoSmZPSG4vVnBrZG1JckdFczBYYkduRysxdWJ1ZW1DTUU2Nk9wQWxzNHBHWmhIQmcxRlZ5M3ZoeHN0QzFnUzdTcVJnZTdONkhhTVRlOUJqL1VTUnJqZjdpcEFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4Nzg4OTUwCWZpbGU6U2hpb3JpLmFwcC50YXIuZ3oKNVUxU0VIWkFnVXZnVkpvWlVZVVhUMGk1VUs3YmdNVFplcjFxS2RjSkRpUUk1S2dhNE9NWTI4UTdXV0dQZXFMWTBDR09FSWxaQ29NSytJV2NXVVRKQWc9PQo="
+      "url": "https://github.com/Nagi-ovo/shiori-releases/releases/download/v26.9.8/Shiori_26.9.8_aarch64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZzJjR2FoSmZPSG9MYzQySnFVemxlQTdZdENGM2VyME9UaUljdTZqaC9lNWJIYWk3RUZKKzhkMEw0T2tMQ1RISzhYUElLVDExS1JseXNxNGh0aHNKR2piRlFGNEFuQ3dnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4ODc5NjQxCWZpbGU6U2hpb3JpLmFwcC50YXIuZ3oKNEZlcUpGZFJNMDFuZW8zNTEzQmFveFExUU1tcUJxdllQWlhJcEtKeG5iVnBVQ2lXenpuR3NmTnFkREJHd0s1ZVhtTzNhRXZlNG9GK2t1eVdwNDhhQ0E9PQo="
     },
     "darwin-x86_64": {
-      "url": "https://github.com/Nagi-ovo/shiori-releases/releases/download/v26.9.7/Shiori_26.9.7_universal.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZzJjR2FoSmZPSHZqckhtaENjQzRWZk10dWNVcVRHc01TS3RZcXlYejA5RFljdlFXUzZ5cXZWRVRFSjJMMjJDK2JnVEhPY0UxQ0tRa0Foa05BSHZyYlZNeGtJa21jUEFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4Nzg5MjM5CWZpbGU6U2hpb3JpLmFwcC50YXIuZ3oKMFdSeHlacHErMFZUWEt6azdKK3VjeXNtWVdDSmxncnJ4VVlHcXJ6Wk1CRUxYdUhaTCtXSnVESmVUVThSVW5mNEZzd3I4K0xJMjd0VzcvV3BzeUtZQWc9PQo="
+      "url": "https://github.com/Nagi-ovo/shiori-releases/releases/download/v26.9.8/Shiori_26.9.8_universal.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZzJjR2FoSmZPSGxhZVRUdlFreWwrT053Znc3aUp4cmh1N0tIeFlYdElaWmtRaEpGVnNRQlpuZy8wUVNKRENXOUtHd0VBU0x2YTNDTjNpMkJNNG9wNWNyZCtSbmNZWVFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4ODc5ODY3CWZpbGU6U2hpb3JpLmFwcC50YXIuZ3oKRHdEUEFIcnlsUlkrOUcxWFQrOFE2YzhsS01HNnhHMmtrNDMzS1NHd1NPN28wWEJKblFCZXBpMS91ZFVGbFY4QzZlOFUrazdOZTlCUmIwc1Eyck1KQkE9PQo="
     },
     "windows-x86_64": {
-      "url": "https://github.com/Nagi-ovo/shiori-releases/releases/download/v26.9.7/Shiori_26.9.7_x64_en-US.msi",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZzJjR2FoSmZPSGlqTkxTZ2VnTjFXNnM0cWtDaXZiUXBUSkJNUEx4eG0zRjZXNEk3dHdpaWZXcWpSRk96VFA1TDcxRXk5a1lWUTJGTEsyTDhRSGxYeVBzc1E4STVYb2dBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4NzkyNzE5CWZpbGU6U2hpb3JpXzI2LjkuN194NjRfZW4tVVMubXNpCmF0UjNtK2xsUFBSZW82Y2pBTE50N3Rpa2tyaEdPNFNsU0d3bXAvM2lPbWtCSGlVaU9WU2RMcWwzYWo3NmtZREc5Ukh2YkQzZWlmU2NCK0k0WEgwaER3PT0K"
+      "url": "https://github.com/Nagi-ovo/shiori-releases/releases/download/v26.9.8/Shiori_26.9.8_x64_en-US.msi",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZzJjR2FoSmZPSHBSclZ2VGozMG9vMU9wdlYyOUw5dHJ4UERDWGpnbUpaNzFNZzFRa093SUFqZllTdzBkWG9FWm84K2JjYnh0RTNvWU5sWlBRTmI1UXlRNUxrRFpsaGdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4ODgwMDAyCWZpbGU6U2hpb3JpXzI2LjkuOF94NjRfZW4tVVMubXNpCllDUDFsR09DQ2VvMTJ4bXFWbWtvNXdiV08ybkxBTW9NeE1BNmpJMHlMVTZVcnJMQmNsYWpkY3dBc0Q3dW9TRHFsODF5cGNiTmZ3TW4zOTRnU3pla0NBPT0K"
     },
     "linux-x86_64": {
-      "url": "https://github.com/Nagi-ovo/shiori-releases/releases/download/v26.9.7/Shiori_26.9.7_amd64.AppImage",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZzJjR2FoSmZPSGhsWHVrMzBmelg3RkhkQUswUzdySW82S2FqWUVaVEF2eWgyOEdNcThKalVGMW93UUpnSVN3YUVCaTBjaktBZHRIcUpNQTkycjNZSEo4ekliQnZCU3d3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4NzkyNjM5CWZpbGU6U2hpb3JpXzI2LjkuN19hbWQ2NC5BcHBJbWFnZQpQUFMveGhGeVN2UUlPSklFREM1U2EyenBMUWwwN005WkRFc0g4SHNaendHWWx6VjFsdnM3UURUZnFJc3ZVRlorNmFrZVVWeW9LV2k1QVpwclZxaUhEQT09Cg=="
+      "url": "https://github.com/Nagi-ovo/shiori-releases/releases/download/v26.9.8/Shiori_26.9.8_amd64.AppImage",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZzJjR2FoSmZPSGw0YWc1U1pSTjVla1d2TzVia0ZKUFZNaDYwSHh3ME1zT2lPb1NLODlHTjdsZnFmUUIxZG00OVJmMlZXQkltN2xOKy9nOG1scXZVcFN0OURUMWxma1FZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4ODc5ODYzCWZpbGU6U2hpb3JpXzI2LjkuOF9hbWQ2NC5BcHBJbWFnZQpDQkwyY1RpSDdydlVuTnd4SG9na1kzclNIellyei9XVTMxNExHL0MxM2kzR2VNcDlnb283RE5DYmlqUXFvdGhjTnZFWkNzalVOQkJKa0ZxR3Y4bDlCQT09Cg=="
     }
   }
 }
